@@ -12,7 +12,7 @@ intents.members = True
 bot = commands.Bot(command_prefix="!", intents=intents)
 
 # OpenAI API Key (Replace with your key)
-OPENAI_API_KEY = "your-openai-api-key"
+OPENAI_API_KEY = "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"
 openai.api_key = OPENAI_API_KEY
 
 @bot.event
@@ -94,4 +94,4 @@ async def imagine(ctx, *, prompt):
         print(f"Error: {e}")
 
 # ✅ Run Bot
-bot.run("YOUR_BOT_TOKEN")
+bot.run("MTMzNTk3ODI0Nzk5MjkwNTc4Mg.G87MdH.gcBFh554IkV42xrw3KEaz1x3NAmGRu6nV0fdIA")
